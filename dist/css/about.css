@@ -1,0 +1,603 @@
+.font-48-600 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.font-44-600 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.font-80-600 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.font-58-600 {
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.font-30-500 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.font-28-500 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.font-22-500 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.font-20-600 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.font-20-500 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.font-20-400 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.font-18-600 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.font-18-500 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.font-18-400 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.font-16-500 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.button-1 {
+  padding: 16px 24px;
+  border-radius: 10px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  transition: background 0.5s;
+}
+.button-1:hover {
+  background: #070708;
+}
+
+.button-3 {
+  width: 213px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  transition: background 0.5s;
+}
+.button-3:hover {
+  background: #070708;
+}
+
+.button-2 {
+  width: 130px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background: #4A2CED;
+  box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+  transition: background 0.5s;
+}
+.button-2:hover {
+  background: #8672F3;
+}
+
+.button-4 {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  cursor: pointer;
+  transition: background 0.5s;
+  transform: rotate(0deg);
+}
+.button-4 img {
+  transform: rotate(90deg);
+  width: 24px;
+  height: 24px;
+}
+.button-4:hover {
+  background: #070708;
+}
+
+.socials {
+  width: 196px;
+  height: 68px;
+  border-radius: 100px;
+  border: 1px solid #1C1C21;
+  background: #070708;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.socials-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.socials-button:hover {
+  background: #070708;
+}
+
+.button-5r, .button-5l {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.button-5r img, .button-5l img {
+  width: 34px;
+  height: 34px;
+}
+.button-5r:hover, .button-5l:hover {
+  background: #070708;
+}
+
+.slick-next,
+.slick-prev {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #2F2F37;
+  background: #1C1C21;
+  position: absolute;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.slick-next img,
+.slick-prev img {
+  width: 34px;
+  height: 34px;
+}
+.slick-next:hover,
+.slick-prev:hover {
+  background: #070708;
+}
+
+.slick-next img, .button-5r img {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1648px) {
+  .font-48-600 {
+    font-size: 34px;
+  }
+  .font-44-600 {
+    font-size: 34px;
+  }
+  .font-80-600 {
+    font-size: 60px;
+  }
+  .font-58-600 {
+    font-size: 48px;
+  }
+  .font-30-500 {
+    font-size: 24px;
+  }
+  .font-28-500 {
+    font-size: 24px;
+  }
+  .font-22-500 {
+    font-size: 18px;
+  }
+  .font-20-600 {
+    font-size: 16px;
+  }
+  .font-20-500 {
+    font-size: 16px;
+  }
+  .font-20-400 {
+    font-size: 16px;
+  }
+  .font-18-600 {
+    font-size: 14px;
+  }
+  .font-18-500 {
+    font-size: 14px;
+  }
+  .font-18-400 {
+    font-size: 14px;
+  }
+  .font-16-500 {
+    font-size: 14px;
+  }
+  .button-1 {
+    padding: 14px 20px;
+    border-radius: 8px;
+  }
+  .button-3 {
+    width: 174px;
+    height: 49px;
+    border-radius: 8px;
+  }
+  .button-2 {
+    width: 104px;
+    height: 56px;
+  }
+  .button-4 {
+    width: 40px;
+    height: 40px;
+  }
+  .button-4 img {
+    width: 20px;
+    height: 20px;
+  }
+  .socials {
+    width: 146px;
+    height: 54px;
+  }
+  .socials-button {
+    width: 38px;
+    height: 38px;
+  }
+  .socials-button img {
+    width: 18px;
+    height: 18px;
+  }
+  .slick-next,
+  .slick-prev {
+    width: 48px;
+    height: 48px;
+  }
+  .slick-next img,
+  .slick-prev img {
+    width: 28px;
+    height: 28px;
+  }
+  .button-5r, .button-5l {
+    width: 48px;
+    height: 48px;
+  }
+  .button-5r img, .button-5l img {
+    width: 28px;
+    height: 28px;
+  }
+}
+@media (max-width: 1310px) {
+  .font-48-600 {
+    font-size: 28px;
+  }
+  .font-44-600 {
+    font-size: 28px;
+  }
+  .font-80-600 {
+    font-size: 40px;
+  }
+  .font-58-600 {
+    font-size: 28px;
+  }
+  .font-30-500 {
+    font-size: 20px;
+  }
+  .font-28-500 {
+    font-size: 20px;
+  }
+  .font-22-500 {
+    font-size: 14px;
+  }
+  .font-20-600 {
+    font-size: 14px;
+  }
+  .font-20-500 {
+    font-size: 14px;
+  }
+  .font-20-400 {
+    font-size: 14px;
+  }
+  .font-18-600 {
+    font-size: 14px;
+  }
+  .font-18-500 {
+    font-size: 14px;
+  }
+  .font-18-400 {
+    font-size: 14px;
+  }
+  .button-3 {
+    width: 310px !important;
+  }
+  .button-2 {
+    width: 80px !important;
+    height: 48px !important;
+  }
+  .button-2 img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .button-4 {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .button-4 img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+.main .biography {
+  position: relative;
+  margin-top: 100px;
+}
+.main .biography-img {
+  position: absolute;
+  height: 784px;
+  width: 1593px;
+  background-image: url(../img/about/about.png);
+}
+.main .biography__up {
+  margin-bottom: 31px;
+}
+.main .biography__up_info-title {
+  text-transform: uppercase;
+  color: #797C86;
+}
+.main .biography__up_info-text {
+  text-transform: uppercase;
+}
+.main .biography__boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 347px;
+}
+.main .biography__boxes_box {
+  width: 248px;
+  height: 141px;
+  padding: 24px 30px;
+  border-radius: 12px;
+  border: 1px solid #1C1C21;
+  background: #0E0E10;
+}
+.main .biography__boxes_box-text {
+  color: #797C86;
+}
+.main .biography__down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px 0px 20px;
+}
+.main .biography__down-img {
+  width: 137px;
+  height: 137px;
+}
+.main .biography__down-text {
+  width: 205px;
+  color: #797C86;
+  text-transform: uppercase;
+}
+.main .biography-title {
+  padding-top: 80px;
+  border-top: 1px solid #1C1C21;
+  text-transform: uppercase;
+  margin-top: 118px;
+  margin-bottom: 40px;
+  color: #797C86;
+}
+.main .biography-text {
+  color: #797C86;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #1C1C21;
+}
+.main .journey {
+  margin-top: 200px;
+}
+.main .journey__up {
+  margin-bottom: 80px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #1C1C21;
+}
+.main .journey__up_info-title {
+  text-transform: uppercase;
+  color: #797C86;
+}
+.main .journey__up_info-text {
+  text-transform: uppercase;
+}
+.main .journey__boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.main .journey__boxes_box {
+  width: 776px;
+  height: 261px;
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #1C1C21;
+  background: #0E0E10;
+}
+.main .journey__boxes_box-title {
+  text-transform: uppercase;
+  color: #797C86;
+  margin-bottom: 20px;
+}
+.main .journey__boxes_box-text {
+  color: #797C86;
+}
+@media (max-width: 1648px) {
+  .main .biography {
+    margin-top: 80px;
+  }
+  .main .biography-img {
+    background-image: url(../img/about/about-lap.png);
+    height: 784px;
+    width: 1279px;
+  }
+  .main .biography__up {
+    margin-bottom: 24px;
+  }
+  .main .biography__boxes {
+    margin-bottom: 445px;
+  }
+  .main .biography__boxes_box {
+    width: 204px;
+    height: 107px;
+    padding: 20px 24px;
+  }
+  .main .biography__down {
+    padding: 0px 20px;
+  }
+  .main .biography__down-img {
+    width: 100px;
+    height: 100px;
+  }
+  .main .biography__down-text {
+    width: 164px;
+  }
+  .main .biography-title {
+    padding-top: 60px;
+    margin-top: 98px;
+    margin-bottom: 30px;
+  }
+  .main .biography-text {
+    padding-bottom: 60px;
+  }
+  .main .journey {
+    margin-top: 150px;
+  }
+  .main .journey__up {
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+  }
+  .main .journey__boxes {
+    gap: 20px;
+  }
+  .main .journey__boxes_box {
+    width: 629px;
+    height: 212px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .main .journey__boxes_box-title {
+    margin-bottom: 14px;
+  }
+}
+@media (max-width: 1310px) {
+  .main .biography {
+    margin-top: 40px;
+  }
+  .main .biography-img {
+    position: inherit;
+    background-image: url(../img/about/about-mob.png);
+    height: 236px;
+    width: 357px;
+    background-repeat: no-repeat;
+  }
+  .main .biography__up {
+    margin-top: 30px;
+  }
+  .main .biography__boxes {
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .main .biography__boxes_box {
+    width: 173px;
+    height: 99x;
+    padding: 20px 14px;
+    text-align: center;
+  }
+  .main .biography__boxes_box-text {
+    width: 145px;
+  }
+  .main .biography__down {
+    display: none;
+  }
+  .main .biography-title {
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .main .biography-text {
+    padding-bottom: 40px;
+  }
+  .main .journey {
+    margin-top: 80px;
+  }
+  .main .journey__up {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
+  .main .journey__boxes_box {
+    width: 358px;
+    height: 196x;
+    padding: 24px;
+  }
+  .main .journey__boxes_box-title {
+    margin-bottom: 10px;
+  }
+}
