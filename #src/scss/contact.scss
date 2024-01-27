@@ -1,0 +1,385 @@
+@import '_vars';
+
+.contactme {
+    position: relative;
+    margin-top: 100px;
+    height: 746px;
+
+    &-img {
+        position: absolute;
+        height: 746px;
+        width: 1593px;
+        background-image: url(../img/contact/contact.png);
+        top: 0;
+    }
+
+    &__socials {
+        margin-left: 1352px;
+        margin-top: 100px;
+        margin-bottom: 48px;
+    }
+
+    &-title {
+        color: $grey50;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+    }
+
+    &-text {
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+
+    &-text2 {
+        color: $grey50;
+        width: 1096px;
+        margin-bottom: 220px;
+    }
+
+    &-bottom {
+        text-transform: uppercase;
+        color: $grey50;
+        width: 205px;
+        margin-left: 1346px;
+    }
+}
+
+.contactinfo {
+    margin-top: 131px;
+    padding: 80px 0;
+    border-top: 1px solid $dark12;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__left {
+        margin-right: 80px;
+
+        &-title {
+            text-transform: uppercase;
+            color: $grey50;
+            margin-bottom: 30px;
+        }
+
+        &-text {
+            color: $grey50;
+            width: 535px;
+        }
+    }
+
+    &__right {
+        display: flex;
+
+        &-text {
+            margin-right: 50px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            border-bottom: 1px solid $dark20;
+            color: $grey95;
+            cursor: pointer;
+            transition: all .5s;
+
+            img {
+                margin-left: 10px;
+            }
+
+            &:hover {
+                background: $dark20;
+
+            }
+        }
+    }
+}
+
+.message {
+    padding: 80px 0;
+    border-top: 1px solid $dark12;
+
+    .container {
+        display: flex;
+    }
+
+    &__left {
+        margin-right: 80px;
+
+        &-title {
+            text-transform: uppercase;
+            color: $grey50;
+            margin-bottom: 30px;
+        }
+
+        &-text {
+            color: $grey50;
+            width: 535px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+
+        &_table {
+            width: 465px;
+
+            &-title {
+                color: $grey90;
+                margin-bottom: 10px;
+            }
+
+            &-input {
+                width: 100%;
+                padding: 14px 0;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid $dark20;
+                background: none;
+                color: $white;
+
+                &::placeholder {
+                    font-size: 22px;
+                    color: $grey40;
+                    text-transform: uppercase;
+
+                }
+
+            }
+
+            &:nth-child(5) {
+                width: 981px;
+            }
+        }
+
+        &_link {
+            display: flex;
+            align-items: center;
+
+            &-text {
+                margin-right: 10px;
+            }
+
+            &-button {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1648px) {
+    .contactme {
+        margin-top: 80px;
+        height: 632px;
+
+        &-img {
+            height: 632px;
+            width: 1280px;
+            background-image: url(../img/contact/contact-lap.png);
+        }
+
+        &__socials {
+            margin-left: 1068px;
+            margin-top: 75px;
+            margin-bottom: 29px;
+        }
+
+        &-title {
+            margin-bottom: 2px;
+        }
+
+        &-text {
+            margin-bottom: 20px;
+        }
+
+        &-text2 {
+            width: 780px;
+            margin-bottom: 200px;
+        }
+
+        &-bottom {
+            width: 179px;
+            margin-left: 1080px;
+        }
+    }
+
+    .contactinfo {
+        margin-top: 112px;
+        padding: 60px 0;
+
+        &__left {
+            margin-right: 60px;
+
+            &-title {
+                margin-bottom: 24px;
+            }
+
+            &-text {
+                width: 413px;
+            }
+        }
+
+        &__right {
+
+            &-text {
+                margin-right: 40px;
+
+                img {
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+
+    .message {
+        padding: 60px 0;
+
+        &__left {
+            margin-right: 60px;
+
+            &-title {
+                margin-bottom: 24px;
+            }
+
+            &-text {
+                width: 413px;
+            }
+        }
+
+        &__right {
+            gap: 40px;
+
+            &_table {
+                width: 383px;
+
+                &-title {
+                    margin-bottom: 6px;
+                }
+
+                &-input {
+                    padding: 10px 0;
+
+                    &::placeholder {
+                        font-size: 18px;
+                    }
+
+                }
+
+                &:nth-child(5) {
+                    width: 807px;
+                }
+            }
+
+            &_link {
+                &-text {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1310px) {
+    .contactme {
+        margin-top: 90px;
+        height: 506px;
+
+        &-img {
+            height: 229px;
+            width: 357px;
+            background-image: url(../img/contact/contact-mob.png);
+        }
+
+        &__socials {
+            margin-left: 107px;
+            margin-top: 205px;
+            margin-bottom: 36px;
+        }
+
+        &-text {
+            margin-bottom: 24px;
+        }
+
+        &-text2 {
+            width: 357px;
+            margin-bottom: 0px;
+        }
+
+        &-bottom {
+            display: none;
+        }
+    }
+
+    .contactinfo {
+        margin-top: 50px;
+        padding: 40px 0;
+
+        .container {
+            flex-direction: column;
+        }
+
+        &__left {
+            margin-right: 0px;
+            margin-bottom: 40px;
+
+            &-title {
+                margin-bottom: 14px;
+            }
+
+            &-text {
+                width: 358px;
+            }
+        }
+
+        &__right {
+            flex-direction: column;
+
+            &-text {
+                margin-right: 0px;
+                margin-bottom: 20px;
+
+                &-1 {
+                    width: 166px;
+                }
+            }
+        }
+    }
+
+    .message {
+        padding: 40px 0;
+
+        .container {
+            flex-direction: column;
+        }
+
+        &__left {
+            margin-right: 0px;
+            margin-bottom: 40px;
+
+            &-title {
+                margin-bottom: 14px;
+            }
+
+            &-text {
+                width: 358px;
+            }
+        }
+
+        &__right {
+            gap: 30px;
+
+            &_table {
+                width: 358px;
+
+
+                &:nth-child(5) {
+                    width: 358px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,352 @@
+@import '_vars';
+
+
+.portfolion {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 110px;
+
+    &-img {
+        position: absolute;
+        height: 784px;
+        width: 1593px;
+        background-image: url(../img/portfolio/portfolio.png);
+    }
+
+    &__up {
+        padding-top: 49px;
+        margin-bottom: 358px;
+
+        &_info {
+            &-title {
+                text-transform: uppercase;
+                color: $grey50;
+            }
+
+            &-text {
+                text-transform: uppercase;
+                padding-bottom: 31px;
+            }
+
+            &-text2 {
+                width: 1096px;
+                color: $grey50;
+
+            }
+        }
+    }
+
+    &__down {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 50px 0px 20px;
+
+        &-img {
+            width: 137px;
+            height: 137px;
+        }
+
+        &-text {
+            width: 205px;
+            color: $grey50;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.infinity-title {
+    width: 260px;
+    color: $grey50;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    position: absolute;
+    left: calc(50% - 130px);
+    bottom: 51px;
+}
+
+.works {
+    &:nth-child(3) {
+        margin-top: 150px;
+    }
+    border-top: 1px solid $dark12;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+
+    &__up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+        position: relative;
+
+        &-title {
+            text-transform: uppercase;
+            color: $grey50;
+        }
+
+        &-controls {
+            width: 160px;
+            height: 82px;
+            border-radius: 100px;
+            border: 1px solid $dark12;
+            background: $dark03;
+        }
+    }
+
+
+    .slick-next,
+    .slick-prev {
+        right: 13px;
+        top: -132px;
+    }
+
+    .slick-prev {
+        right: 88px;
+
+    }
+
+    &__hero {
+        width: 1597px;
+        display: flex;
+
+
+        &_card {
+
+            &_info {
+                width: 499px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+
+                &_group {
+                    &-title {
+                        color: $grey80;
+                        margin-bottom: 4px;
+                    }
+
+                    &-date {
+                        color: $grey50;
+                    }
+                }
+
+                &-button {
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid $dark20;
+                    color: $grey95;
+                    cursor: pointer;
+                    transition: all .5s;
+
+                    img {
+                        margin-left: 10px;
+                    }
+
+                    &:hover {
+                        background: $dark20;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1648px) {
+
+    .portfolion {
+        margin-top: 80px;
+        margin-bottom: 90px;
+
+        &-img {
+            background-repeat: no-repeat;
+            background-image: url(../img/portfolio/portfolio-lap.png);
+            height: 784px;
+            width: 1279px;
+        }
+
+        &__up {
+            margin-bottom: 382px;
+
+            &_info-text2 {
+                width: 880px;
+            }
+        }
+
+        &__down {
+            padding: 0px 20px;
+
+            &-img {
+                width: 100px;
+                height: 100px;
+            }
+
+            &-text {
+                width: 164px;
+            }
+        }
+    }
+
+    .works {
+        &:nth-child(3) {
+            margin-top: 100px;
+        }
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        &__up {
+            margin-bottom: 50px;
+
+            &-controls {
+                width: 124px;
+                height: 64px;
+            }
+        }
+
+
+        .slick-next,
+        .slick-prev {
+            right: 8px;
+            top: -107px;
+        }
+
+        .slick-prev {
+            right: 65px
+        }
+
+        &__hero {
+            width: 1279px;
+
+            &_card {
+                &-photo {
+                    width: 406px;
+                }
+
+                &_info {
+                    width: 406px;
+
+                    &_group {
+                        &-title {
+                            margin-bottom: 2px;
+                        }
+                    }
+
+                    &-button {
+                        img {
+                            margin-left: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1310px) {
+
+    .portfolion {
+        margin-top: 40px;
+        margin-bottom: 60px;
+
+        &-img {
+            position: inherit;
+            background-image: url(../img/portfolio/portfolio-mob.png);
+            height: 189px;
+            width: 359px;
+        }
+
+        &__up {
+            padding: 0;
+            margin-top: 30px;
+            margin-bottom: 0px;
+
+            &_info-text {
+                padding: 0;
+                margin-bottom: 24px;
+
+            }
+
+            &_info-text2 {
+                width: 359px;
+
+            }
+        }
+
+        &__down {
+            display: none;
+        }
+
+        &-title {
+            padding-top: 40px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        &-text {
+            padding-bottom: 40px;
+        }
+    }
+
+    .works {
+        &:nth-child(3) {
+            margin-top: 80px;
+        }
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &__up {
+            margin-bottom: 20px;
+            flex-direction: column;
+            align-items: start;
+
+            &-controls {
+                width: 124px;
+                height: 64px;
+                position: absolute;
+                bottom: -564px;
+                left: 117px;
+            }
+        }
+
+
+        .slick-next,
+        .slick-prev {
+            right: 126px;
+            top: 488px;
+            z-index: 10;
+        }
+
+        .slick-prev {
+            right: 184px;
+
+        }
+
+        &__hero {
+            width: 358px;
+
+            &_card {
+
+                &-photo {
+                    width: 358px;
+                }
+
+                &_info {
+                    width: 358px;
+                    margin-bottom: 114px;
+
+                    &-button {
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
