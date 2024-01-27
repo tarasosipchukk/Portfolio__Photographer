@@ -1,2 +1,2 @@
 # Portfolio__Photographer
-<a href="./index.html">site</a>
+<a href="./dist/index.html">site</a>
